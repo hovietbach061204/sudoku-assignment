@@ -9,8 +9,8 @@ struct Cell_impl
     int row_index;
     int col_index;
     int box_index;
-    int num_candidates;
-    int candidates[BOARD_SIZE];
+    int num_candidates; //number of candidates
+    int candidates[BOARD_SIZE]; //array of 9 candidates in each cell.
     int value; // solved or 0
     bool fixed;
 };

@@ -5,29 +5,17 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(gdb) Launch",
+            "name": "(lldb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/sudoku",
-            "args": ["000105000140000670080002400063070010900000003010090520007200080026000035000409000"],
+            "program": "${workspaceFolder}/autograder",
+            "args": ["402g05agg1bi09a23g812o116s4u6s0im4mk032og0esdses9ge46k14g18a8c219e400h0c2k066oks4uksi011812k94eossdsssi00c03jg41aiqo8oqo05qajo0986ag11ckuk8iu0mgik94ag03csus9gu8mo", "hidden_pairs", "3"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
-            "MIMode": "gdb",
-            "setupCommands": [
-                {
-                    "description": "Enable pretty-printing for gdb",
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                },
-                {
-                    "description": "Set Disassembly Flavor to Intel",
-                    "text": "-gdb-set disassembly-flavor intel",
-                    "ignoreFailures": true
-                }
-            ]
-        }
+            "MIMode": "lldb"
+        },
 
     ]
 }

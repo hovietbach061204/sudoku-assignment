@@ -1,0 +1,9 @@
+{
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/Users/bachviet/Developer/Programming1/sudoku-assignment",
+            "binaryPath": "/Users/bachviet/Developer/Programming1/sudoku-assignment/autograder",
+            "binaryArgs": []
+        }
+    ]
+}
