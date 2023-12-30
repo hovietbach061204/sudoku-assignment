@@ -15,4 +15,5 @@ int find_hidden_single_values(Cell **p_cells, int *hidden_single_values); //hidd
 void find_hidden_single(Cell **p_cells, HiddenSingle *p_hidden_singles, int *p_counter); //tìm ra cái cell chứa hidden single đó. ví dụ hidden single value là 7 thì ta phải tìm luôn cái số 7 đó nằm ở trong cell địa chỉ hàng cột là bao nhiêu, vì mục tiêu cuối cùng hướng đến là tìm cái cell chứa hidden_single.
 //Cái *p_hidden_singles này là một array của các hidden singles, tìm đc bao nhiêu hidden singles thì cứ bỏ vào trong array đó.
 // find hidden single cells in a board, return the number of hidden single cells
+bool is_in_list_hidden_single(HiddenSingle *p_array, int size, Cell *a);
 int hidden_singles(SudokuBoard *p_board); //trả về số lượng cell chứa hidden singles trong board đó.

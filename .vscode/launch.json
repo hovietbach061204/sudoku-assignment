@@ -9,7 +9,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/autograder",
-            "args": ["402g05agg1bi09a23g812o116s4u6s0im4mk032og0esdses9ge46k14g18a8c219e400h0c2k066oks4uksi011812k94eossdsssi00c03jg41aiqo8oqo05qajo0986ag11ckuk8iu0mgik94ag03csus9gu8mo", "hidden_pairs", "3"],
+            "args": ["58h8h8j2n00hk805810hgc21o6s4c4k8ka1103h4p0p409d421k0gg14jkhg09bk03s4v0i41c8141343434030hi41c3u1q41bkg18cb824901g05r003f0ogq009g10q8qa4a4ac11a24121419a0hp49co4o2g6", "hidden_sinlges", "3"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],

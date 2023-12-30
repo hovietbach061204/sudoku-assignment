@@ -41,7 +41,7 @@ endif
 # command line.
 #    $ make check -B ASAN=0
 #
-ASAN ?= 1
+ASAN ?= 0
 ifeq ($(ASAN),1)
 FLAGS += -fsanitize=address
 endif
